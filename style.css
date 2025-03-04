@@ -1,0 +1,43 @@
+* {
+    color: white;
+    font-family:'Segoe UI';
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    align-items: center;
+    background-image: url("king\ von\ anti\ background.jpg");
+    overflow: hidden;
+}
+
+#packetButton {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(20, 20, 20, 0.5);
+    backdrop-filter: blur(10px);
+    border: 4px solid white;
+    font-size: 30px;
+    border-radius: 25px;
+    width: 500px;
+    height: 250px;
+}
+
+#packetButton:hover {
+    cursor: pointer;
+}
+
+#video {
+    width: 100%;
+    height: calc(100% - 100px); 
+    position: fixed;
+}
+
+.text {
+    text-align: center;
+    color: rgb(255, 0, 0); 
+}
+
